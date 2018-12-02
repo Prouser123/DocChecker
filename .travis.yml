@@ -4,3 +4,8 @@ node_js:
   - "8"
 notifications:
   disabled: true
+deploy:
+  provider: script
+  script: DEBUG=glitch-deploy* npx glitch-deploy
+  on:
+    branch: master
