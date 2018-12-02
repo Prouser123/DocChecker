@@ -1,0 +1,33 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "doc-checker",
+  "version": "1.0-RC1",
+  "description": "",
+  "author": "github-username jcahill773@gmail.com",
+  "license": "ISC",
+  "repository": "your-repository-name",
+  "scripts": {
+    "dev": "nodemon --exec \"npm start\"",
+    "start": "probot run ./index.js",
+    "test": "jest && standard"
+  },
+  "dependencies": {
+    "probot": "^7.0.0"
+  },
+  "devDependencies": {
+    "jest": "^23.2.0",
+    "smee-client": "^1.0.1",
+    "standard": "^11.0.1"
+  },
+  "engines": {
+    "node": "8.9",
+    "npm": "5.6"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  }
+}
