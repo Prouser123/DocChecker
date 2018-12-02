@@ -4,6 +4,7 @@ node_js:
   - "8"
 notifications:
   disabled: true
+script: echo "Script Running"
 deploy:
   provider: script
   script: DEBUG=glitch-deploy* npx glitch-deploy
