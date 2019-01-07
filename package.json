@@ -3,10 +3,10 @@
   "//2": "https://docs.npmjs.com/files/package.json",
   "//3": "updating this file will download and update your packages",
   "name": "doc-checker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "author": "github-username jcahill773@gmail.com",
-  "license": "ISC",
+  "author": "Prouser123, Probot, Glitch",
+  "license": "MIT",
   "repository": "your-repository-name",
   "scripts": {
     "dev": "nodemon --exec \"npm start\"",
